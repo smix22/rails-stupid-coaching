@@ -1,0 +1,8 @@
+<div class="container p-3">
+  <h2>Stupid Coaching</h2>
+  <div class="d-flex flex-column border w-50 p-3 my-3">
+    <p><span class="fw-bold">Question:</span> <%= @question %></p>
+    <p><span class="fw-bold">Answer:</span> <%= @answer %></p>
+    <div><%= link_to "Ask a new question", "/ask", class: "btn btn-success" %></div>
+  </div>
+</div>
